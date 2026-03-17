@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Fil's project 2026
+<#if licenseLast??>
+${licensePrefix}learning java 
+${licensePrefix}Part II
+${licenseLast}
+</#if>

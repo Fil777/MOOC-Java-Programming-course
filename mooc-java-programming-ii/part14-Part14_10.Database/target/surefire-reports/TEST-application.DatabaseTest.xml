@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="application.DatabaseTest" time="1.1" tests="8" errors="0" skipped="0" failures="5">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database\target\test-classes;C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database\target\classes;C:\Users\Fil\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Fil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Fil\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\Fil\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.29.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\Fil\AppData\Local\Temp\surefire2783008812295674026\surefirebooter2602340529794776778.jar C:\Users\Fil\AppData\Local\Temp\surefire2783008812295674026 2026-02-24T01-19-33_752-jvmRun1 surefire10619166771286568425tmp surefire_07888979302272318448tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database\target\test-classes;C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database\target\classes;C:\Users\Fil\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Fil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Fil\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\Fil\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Fil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.29.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Fil\AppData\Local\Temp\surefire2783008812295674026\surefirebooter2602340529794776778.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.29+7"/>
+    <property name="user.name" value="Fil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.29+7"/>
+    <property name="localRepository" value="C:\Users\Fil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Fil\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.29"/>
+    <property name="user.dir" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_10.Database"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.29.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Oracle\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Calibre2\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Zero Install;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\ProgramData\AutomationBox\MouseRobot2\Application;C:\ProgramData\AutomationBox\MouseRobot2\Application\tools;C:\Program Files\Java\jdk-21\bin;C:\Programs\Python\Python311\Scripts\;C:\Programs\Python\Python311\;C:\Users\Fil\AppData\Local\Microsoft\WindowsApps;C:\Users\Fil\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.29+7"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="addingAddsDataToDatabase" classname="application.DatabaseTest" time="0.551">
+    <failure message="The todos added in the user interface should end up in the database.&#10;The input was&#10;2&#10;3b5b&#10;e54c&#10;x&#10;&#10;Now the database was empty." type="java.lang.AssertionError">java.lang.AssertionError: 
+The todos added in the user interface should end up in the database.
+The input was
+2
+3b5b
+e54c
+x
+
+Now the database was empty.
+	at application.DatabaseTest.addingAddsDataToDatabase(DatabaseTest.java:162)
+</failure>
+  </testcase>
+  <testcase name="dataIsNotListedUnlessRequested" classname="application.DatabaseTest" time="0.029"/>
+  <testcase name="contentIsAddedToDatabase" classname="application.DatabaseTest" time="0.039"/>
+  <testcase name="removeMultiple" classname="application.DatabaseTest" time="0.071">
+    <failure message="When a todo is removed in the user interface, it should not be found in the database anymore." type="java.lang.AssertionError">java.lang.AssertionError: When a todo is removed in the user interface, it should not be found in the database anymore.
+	at application.DatabaseTest.removeMultiple(DatabaseTest.java:275)
+</failure>
+  </testcase>
+  <testcase name="markAsDoneMultiple" classname="application.DatabaseTest" time="0.113">
+    <failure message="When a todo is marked as done in the user interface, it should also become done in the database." type="java.lang.AssertionError">java.lang.AssertionError: When a todo is marked as done in the user interface, it should also become done in the database.
+	at application.DatabaseTest.markAsDoneMultiple(DatabaseTest.java:223)
+</failure>
+  </testcase>
+  <testcase name="markAsDone" classname="application.DatabaseTest" time="0.057">
+    <failure message="The changes made with the user interface should be reflected in the database.&#10;When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}&#10;And the input is:&#10;3&#10;1&#10;x&#10;&#10;The value of the done variable should be updated to true." type="java.lang.AssertionError">java.lang.AssertionError: 
+The changes made with the user interface should be reflected in the database.
+When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}
+And the input is:
+3
+1
+x
+
+The value of the done variable should be updated to true.
+	at application.DatabaseTest.markAsDone(DatabaseTest.java:194)
+</failure>
+  </testcase>
+  <testcase name="contentsInDatabaseAreListedRandom" classname="application.DatabaseTest" time="0.035"/>
+  <testcase name="removeOne" classname="application.DatabaseTest" time="0.043">
+    <failure message="Removing a todo in the user interface should also remove said todo from the database.&#10;When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}&#10;And the input is:&#10;4&#10;1&#10;x&#10;&#10;There should be zero rows in the database after executing the program." type="java.lang.AssertionError">java.lang.AssertionError: 
+Removing a todo in the user interface should also remove said todo from the database.
+When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}
+And the input is:
+4
+1
+x
+
+There should be zero rows in the database after executing the program.
+	at application.DatabaseTest.removeOne(DatabaseTest.java:251)
+</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: application.DatabaseTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 1.1 s <<< FAILURE! - in application.DatabaseTest
+addingAddsDataToDatabase(application.DatabaseTest)  Time elapsed: 0.551 s  <<< FAILURE!
+java.lang.AssertionError: 
+The todos added in the user interface should end up in the database.
+The input was
+2
+3b5b
+e54c
+x
+
+Now the database was empty.
+	at application.DatabaseTest.addingAddsDataToDatabase(DatabaseTest.java:162)
+
+removeMultiple(application.DatabaseTest)  Time elapsed: 0.071 s  <<< FAILURE!
+java.lang.AssertionError: When a todo is removed in the user interface, it should not be found in the database anymore.
+	at application.DatabaseTest.removeMultiple(DatabaseTest.java:275)
+
+markAsDoneMultiple(application.DatabaseTest)  Time elapsed: 0.113 s  <<< FAILURE!
+java.lang.AssertionError: When a todo is marked as done in the user interface, it should also become done in the database.
+	at application.DatabaseTest.markAsDoneMultiple(DatabaseTest.java:223)
+
+markAsDone(application.DatabaseTest)  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.AssertionError: 
+The changes made with the user interface should be reflected in the database.
+When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}
+And the input is:
+3
+1
+x
+
+The value of the done variable should be updated to true.
+	at application.DatabaseTest.markAsDone(DatabaseTest.java:194)
+
+removeOne(application.DatabaseTest)  Time elapsed: 0.043 s  <<< FAILURE!
+java.lang.AssertionError: 
+Removing a todo in the user interface should also remove said todo from the database.
+When the database contains the todo: Todo{id=1, name=exam, description=rehearse for the exam, done=false}
+And the input is:
+4
+1
+x
+
+There should be zero rows in the database after executing the program.
+	at application.DatabaseTest.removeOne(DatabaseTest.java:251)
+

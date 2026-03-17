@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="hurraa.HurraaSovellusTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray\target\test-classes;C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray\target\classes;C:\Users\Fil\.m2\repository\org\openjfx\javafx-media\18.0.1\javafx-media-18.0.1.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-media\18.0.1\javafx-media-18.0.1-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1.jar;C:\Users\Fil\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Fil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Fil\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\Fil\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\Fil\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\Fil\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\Fil\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="K:\Java\zulu11.86.21-ca-fx-jdk11.0.30-win_x64\bin"/>
+    <property name="sun.java.command" value="C:\Users\Fil\AppData\Local\Temp\surefire1025089868669286259\surefirebooter18283570532992598435.jar C:\Users\Fil\AppData\Local\Temp\surefire1025089868669286259 2026-02-23T21-23-07_455-jvmRun1 surefire2630968389418772361tmp surefire_0235049451550239749tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray\target\test-classes;C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray\target\classes;C:\Users\Fil\.m2\repository\org\openjfx\javafx-media\18.0.1\javafx-media-18.0.1.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-media\18.0.1\javafx-media-18.0.1-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-graphics\18.0.1\javafx-graphics-18.0.1.jar;C:\Users\Fil\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Fil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Fil\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\Fil\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\Fil\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\Fil\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\Fil\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\Fil\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Fil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="K:\Java\zulu11.86.21-ca-fx-jdk11.0.30-win_x64"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.86+21-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Fil\AppData\Local\Temp\surefire1025089868669286259\surefirebooter18283570532992598435.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.30+7-LTS"/>
+    <property name="user.name" value="Fil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.86+21-CA"/>
+    <property name="localRepository" value="C:\Users\Fil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Fil\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.30"/>
+    <property name="user.dir" value="C:\Users\Fil\Documents\NetBeansProjects\mooc-java-programming-ii\part14-Part14_08.Hurray"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="K:\Java\zulu11.86.21-ca-fx-jdk11.0.30-win_x64\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Oracle\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Calibre2\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Zero Install;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\ProgramData\AutomationBox\MouseRobot2\Application;C:\ProgramData\AutomationBox\MouseRobot2\Application\tools;C:\Program Files\Java\jdk-21\bin;C:\Programs\Python\Python311\Scripts\;C:\Programs\Python\Python311\;C:\Users\Fil\AppData\Local\Microsoft\WindowsApps;C:\Users\Fil\AppData\Local\GitHubDesktop\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.30+7-LTS"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="noTests" classname="hurraa.HurraaSovellusTest" time="0.002"/>
+</testsuite>
